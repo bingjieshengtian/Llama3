@@ -1,1 +1,11 @@
-{"framework":"Pytorch","task":"text-generation"}
+{
+    "framework": "pytorch",
+    "task": "text-generation",
+    "model": {
+        "type": "Llama3-Chinese-8B"
+    },
+    "pipeline": {
+        "type": "Llama3-Chinese-8B-pipe"
+    },
+    "allow_remote": true
+}
