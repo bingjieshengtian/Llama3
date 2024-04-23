@@ -12,6 +12,10 @@ Llama3-Chinese-8B基于Llama3-8B的中文对话模型，由Llama中文社区和A
 
 模型的部署、训练、微调等方法详见Llama中文社区GitHub仓库：https://github.com/LlamaFamily/Llama-Chinese
 
+## 在线体验
+
+https://llama.family/chat/#/
+
 ## 如何使用
 
 下载模型
