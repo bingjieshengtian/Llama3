@@ -30,8 +30,8 @@ import torch
 model_id = "./Llama3-Chinese-8B-Instruct"
 
 pipeline = transformers.pipeline(
-    "text-generation", model=model_id, model_kwargs={"torch_dtype": torch.bfloat16}, device_map="auto"
+    "text-generation", model=model_id, model_kwargs={"torch_dtype": torch.float16}, device_map="auto"
 )
 
-pipeline("介绍一下机器学习?")
+print(pipeline("介绍一下机器学习?"))
 ```
